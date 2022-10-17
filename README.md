@@ -45,10 +45,10 @@ Desarrollar unos test al endpoint rest que  validen las siguientes peticiones al
 -          Test 5: petición a las 21:00 del día 16 del producto 35455   para la brand 1 (ZARA)
 
 ### Pasos para su utilizacion
-1) mvn clean package
-
+1) mvn clean package (en la carpeta raiz del proyecto)
+2) java -jar target/com-business-price-0.0.1-SNAPSHOT.jar
 ### Consultar el api por CURL
-2)  curl --location --request GET 'localhost:8080/api-business-price/api/v1/brand-id/1/product-id/35455?applicationDate=2019-06-16 21:00:00'
+3) curl --location --request GET 'localhost:8080/api-business-price/api/v1/brand-id/1/product-id/35455?applicationDate=2019-06-16 21:00:00'
 
 ## Recursos
 - [Swagger](http://localhost:8080/api-business-price/swagger-ui.html)
